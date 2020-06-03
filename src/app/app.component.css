@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 .warning {
     color: red;
@@ -6,4 +6,9 @@
 .success {
     color: green;
 }
->>>>>>> origin/master
+.warning {
+    color: red;
+}
+.success {
+    color: green;
+}

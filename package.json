@@ -1,9 +1,10 @@
 {
-<<<<<<< HEAD
+{
+
   "name": "assignment-two",
 =======
   "name": "assignment-one",
->>>>>>> origin/master
+  "name": "assignment-one",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

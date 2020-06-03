@@ -10,11 +10,23 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-<<<<<<< HEAD
+import { AppPage } from './app.po';
+import { browser, logging } from 'protractor';
+
+describe('workspace-project App', () => {
+  let page: AppPage;
+
+  beforeEach(() => {
+    page = new AppPage();
+  });
+
+  it('should display welcome message', () => {
+    page.navigateTo();
+
     expect(page.getTitleText()).toEqual('assignment-two app is running!');
 =======
     expect(page.getTitleText()).toEqual('assignment-one app is running!');
->>>>>>> origin/master
+    expect(page.getTitleText()).toEqual('assignment-one app is running!');
   });
 
   afterEach(async () => {
